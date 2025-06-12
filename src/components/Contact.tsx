@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  FaDiscord,
-  FaEnvelope,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp
-} from "react-icons/fa";
+import { FaDiscord, FaEnvelope, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiHackthebox } from "react-icons/si";
 
 const Contact: React.FC = () => {
   const email = "cynthiabon5002@gmail.com";
@@ -19,8 +14,8 @@ const Contact: React.FC = () => {
 
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-16 text-center">
-          <div className="inline-block px-4 py-1 bg-blue-900/30 rounded-full">
-            <span className="text-blue-400 font-medium tracking-wide text-sm">
+          <div className="inline-block px-4 py-1 bg-green-900/30 rounded-full">
+            <span className="text-green-400 font-medium tracking-wide text-sm">
               GET IN TOUCH
             </span>
           </div>
@@ -31,25 +26,31 @@ const Contact: React.FC = () => {
             </span>
           </h2>
           <p className="max-w-lg text-gray-400">
-            Looking for a security assessment or consultation? I'm available for freelance penetration testing, vulnerability assessments, and cybersecurity analyst roles.
+            Looking for a security assessment or consultation? I'm available for
+            freelance penetration testing, vulnerability assessments, and
+            cybersecurity analyst roles.
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-green-900/20 rounded-2xl transform -rotate-1 scale-[1.03]"></div>
-            <div className="relative bg-gray-900/90 backdrop-blur-sm p-10 rounded-xl border border-blue-500/20 shadow-lg">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-green-800/20 rounded-2xl transform -rotate-1 scale-[1.03]"></div>
+            <div className="relative bg-gray-900/90 backdrop-blur-sm p-10 rounded-xl border border-green-700/30 shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Left column: Get in touch message */}
                 <div className="flex flex-col justify-center">
                   <h3 className="text-2xl font-semibold mb-6">Get in Touch</h3>
-                  <p className="text-gray-300 mb-6">
-                    I'm currently available for freelance security work, internships, and analyst roles. Let's secure systems—together.
+                  <p className="text-gray-300 mb-8">
+                    I'm currently available for freelance security work,
+                    internships, and analyst roles. Let's secure
+                    systems—together.
                   </p>
 
-                  <div className="mt-6 p-6 border border-blue-500/20 rounded-xl bg-gray-900/50">
+                  <div className="mt-8 p-6 border border-blue-500/20 rounded-xl bg-gray-900/50">
                     <p className="text-gray-300 italic">
-                      "I break systems to make them unbreakable. My goal is to discover vulnerabilities before attackers do, helping organizations build true cyber resilience."
+                      "I break systems to make them unbreakable. My goal is to
+                      discover vulnerabilities before attackers do, helping
+                      organizations build true cyber resilience."
                     </p>
                   </div>
                 </div>
@@ -103,10 +104,10 @@ const Contact: React.FC = () => {
                         className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-blue-900/30 transition-colors group"
                       >
                         <div className="w-8 h-8 flex items-center justify-center">
-                          <FaLinkedin className="text-xl group-hover:text-blue-400" />
+                          <FaXTwitter className="text-xl group-hover:text-blue-400" />
                         </div>
                         <span className="text-sm text-gray-300 group-hover:text-blue-400">
-                          LinkedIn
+                          dagal.dê laqueen
                         </span>
                       </a>
                       <a
@@ -116,10 +117,23 @@ const Contact: React.FC = () => {
                         className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-green-900/30 transition-colors group"
                       >
                         <div className="w-8 h-8 flex items-center justify-center">
-                          <FaGithub className="text-xl group-hover:text-green-400" />
+                          <SiHackthebox className="text-xl group-hover:text-green-400" />
                         </div>
                         <span className="text-sm text-gray-300 group-hover:text-green-400">
                           HackTheBox: Raptor20
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.github.com/cynthia-orina"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-green-900/30 transition-colors group"
+                      >
+                        <div className="w-8 h-8 flex items-center justify-center">
+                          <FaGithub className="text-xl group-hover:text-green-400" />
+                        </div>
+                        <span className="text-sm text-gray-300 group-hover:text-green-400">
+                          github.com/cyntia-orina
                         </span>
                       </a>
                       <a
@@ -147,14 +161,14 @@ const Contact: React.FC = () => {
             <p className="text-gray-300 mb-6">
               Ready to discuss your security needs? Send me a message!
             </p>
-            <div className="inline-flex items-center justify-center border rounded-full border-blue-500 p-0.5">
-            <a
-              href={`mailto:${email}`}
-              className="inline-flex items-center px-8 py-3 bg-gradient-to-r border border-white rounded-full from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 transform hover:-translate-y-1 transition-all duration-200 shadow-lg shadow-blue-900/30"
-            >
-              <FaEnvelope className="mr-2" />
-              <span className="font-medium">Request Security Assessment</span>
-            </a>
+            <div className="inline-flex items-center justify-center border rounded-full border-green-500 p-0.5">
+              <a
+                href={`mailto:${email}`}
+                className="inline-flex items-center px-8 py-3 bg-gradient-to-r border border-white rounded-full from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 transform hover:-translate-y-1 transition-all duration-200 shadow-lg shadow-blue-900/30"
+              >
+                <FaEnvelope className="mr-2" />
+                <span className="font-medium">Request Security Assessment</span>
+              </a>
             </div>
           </div>
         </div>

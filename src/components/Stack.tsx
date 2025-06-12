@@ -23,8 +23,7 @@ interface TechItemProps {
 const TechItem = ({ icon, name }: TechItemProps) => (
   <div className="flex flex-col items-center group">
     <div className="relative w-14 h-14 flex items-center justify-center transition-all duration-300 group-hover:scale-105">
-      {/* Outer border with animation - alternating blue/green */}
-      <div className="absolute inset-0 border-2 border-blue-500 rounded-xl opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
+      <div className="absolute inset-0 border-2 border-green-500 rounded-xl opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
       {/* Inner content with white border */}
       <div className="relative w-[90%] h-[90%] flex items-center justify-center border-2 border-white rounded-lg bg-gray-900/50">
         <div className="text-3xl group-hover:scale-110 transition-transform duration-300">

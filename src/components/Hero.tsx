@@ -1,5 +1,6 @@
-import { Github, Instagram } from "lucide-react";
+import { Github} from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiHackthebox } from "react-icons/si";
 
 const Hero: React.FC = () => (
   <section className="relative md:h-[85vh] overflow-hidden md:pl-36 pt-10 md:pt-4 px-4 md:px-24 flex items-center">
@@ -14,11 +15,11 @@ const Hero: React.FC = () => (
           {/* Role badge with hover effect */}
           <div className="relative inline-flex group p-0.5">
             {/* Outer border */}
-            <div className="absolute inset-0 border-2 border-blue-500 rounded-full opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
+            <div className="absolute inset-0 border-2 border-green-500 rounded-full opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
 
             {/* Inner content with white border */}
             <div className="relative m-0.5 px-4 py-1 bg-blue-900/30 border border-white rounded-full">
-              <span className="text-blue-400 font-medium tracking-wide text-sm">
+              <span className="text-green-400 font-medium tracking-wide text-sm">
                 CYBERSECURITY ANALYST
               </span>
             </div>
@@ -31,7 +32,7 @@ const Hero: React.FC = () => (
           <h1 className="text-2xl sm:text-4xl font-bold mt-2 mb-1 md:mt-4 md:mb-4 leading-tight">
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-              Cynthia B.
+              Cynthia Orina.
             </span>
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed">
@@ -48,7 +49,7 @@ const Hero: React.FC = () => (
             {/* Inner button with gradient */}
             <a
               href="#contact"
-              className="relative block px-6 py-2.5 m-0.5 bg-gradient-to-r from-blue-500 to-green-500 rounded-full hover:from-blue-600 hover:to-green-600 transform hover:-translate-y-1 transition-all duration-200 shadow-lg shadow-blue-900/30 font-medium"
+              className="relative block px-6 py-2.5 m-0.5 bg-gradient-to-r from-blue-400 to-green-600 rounded-full hover:from-blue-600 hover:to-green-600 transform hover:-translate-y-1 transition-all duration-200 shadow-lg shadow-blue-900/30 font-medium"
             >
               Hire Me
             </a>
@@ -79,7 +80,7 @@ const Hero: React.FC = () => (
             target="_blank"
             className="text-gray-400 hover:text-white transition-colors"
           >
-            <Instagram className="w-5 h-5" />
+            <SiHackthebox className="w-5 h-5" />
           </a>
           <a
             href="https://twitter.com/dagal_laqueen"

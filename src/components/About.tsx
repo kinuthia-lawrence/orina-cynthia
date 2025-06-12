@@ -3,11 +3,10 @@ import {
   FaDiscord,
   FaEnvelope,
   FaGithub,
-  FaGlobe,
-  FaLinkedin,
-  FaWhatsapp,
+  FaWhatsapp
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiHackthebox } from "react-icons/si";
 
 const About: React.FC = () => (
   <section id="about" className="relative pt-24 pb-8 px-4 md:px-36 bg-black/90 text-white overflow-hidden">
@@ -25,7 +24,7 @@ const About: React.FC = () => (
             <div className="relative">
               <img
                 src="/Backgroundless.png"
-                alt="Cynthia B."
+                alt="Cynthia Orina"
                 className="w-36 h-36 rounded-full border-4 border-white object-cover z-10 transition-transform duration-500 group-hover:scale-105"
               />
             </div>
@@ -46,7 +45,7 @@ const About: React.FC = () => (
               Hi, I'm Cynthia{" "}
               <span className="text-sm font-light text-gray-400 block md:inline mt-1 md:mt-0 md:ml-2">[Cybersecurity Specialist]</span>
             </h2>
-            <div className="h-1 w-20 bg-gradient-to-r from-blue-400 to-green-500 my-4 mx-auto md:mx-0"></div>
+            <div className="h-1 w-30 bg-gradient-to-r from-black via-green-500 to-black my-4 mx-auto md:mx-0"></div>
             <p className="text-gray-300 mt-4 leading-relaxed">
               I'm a passionate Cybersecurity Analyst with a focus on website and network penetration testing. I break systems to make them unbreakable.
             </p>
@@ -63,13 +62,13 @@ const About: React.FC = () => (
             <a href="#" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
-                <div className="absolute inset-0 border-2 border-blue-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="absolute inset-0 border-2 border-green-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
                 {/* Inner content with white border */}
                 <div className="relative m-0.5 flex items-center justify-center border border-white rounded-md bg-gray-900/50 p-2 group-hover:bg-gray-900 transition-all duration-300">
-                  <FaGlobe className="text-blue-400 group-hover:scale-110 transition-transform duration-300" size={20} />
+                  <FaDiscord className="text-blue-400 group-hover:scale-110 transition-transform duration-300" size={20} />
                 </div>
               </div>
-              <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">Portfolio</span>
+              <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">Discord</span>
             </a>
             
             <a href="mailto:cynthiabon5002@gmail.com" target="_blank" className="social-link group">
@@ -90,22 +89,22 @@ const About: React.FC = () => (
                 <div className="absolute inset-0 border-2 border-green-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
                 {/* Inner content with white border */}
                 <div className="relative m-0.5 flex items-center justify-center border border-white rounded-md bg-gray-900/50 p-2 group-hover:bg-gray-900 transition-all duration-300">
-                  <FaGithub className="text-green-400 group-hover:scale-110 transition-transform duration-300" size={20} />
+                  <SiHackthebox className="text-green-400 group-hover:scale-110 transition-transform duration-300" size={20} />
                 </div>
               </div>
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-green-400 transition-colors duration-300">HTB</span>
             </a>
             
-            <a href="#" target="_blank" className="social-link group">
+            <a href="https://www.github.com/cynthia-orina" target="_blank" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-blue-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
                 {/* Inner content with white border */}
                 <div className="relative m-0.5 flex items-center justify-center border border-white rounded-md bg-gray-900/50 p-2 group-hover:bg-gray-900 transition-all duration-300">
-                  <FaLinkedin className="text-blue-400 group-hover:scale-110 transition-transform duration-300" size={20} />
+                  <FaGithub className="text-blue-400 group-hover:scale-110 transition-transform duration-300" size={20} />
                 </div>
               </div>
-              <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">LinkedIn</span>
+              <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">Github</span>
             </a>
             
             <a href="https://wa.me/message/+254703779459" target="_blank" className="social-link group">
@@ -119,7 +118,7 @@ const About: React.FC = () => (
               </div>
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-green-400 transition-colors duration-300">WhatsApp</span>
             </a>
-            <a href="https://twitter.com/dagal_laqueen" target="_blank" className="social-link group">
+            <a href="https://x.com/dagal_laqueen" target="_blank" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-blue-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>

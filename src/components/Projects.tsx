@@ -150,7 +150,7 @@ const Projects: React.FC = () => (
       Note: Many projects are under NDA and cannot be displayed here. Details
       have been modified to protect client confidentiality.
     </p>
-    <div className="px-16 h-px bg-gradient-to-r from-green-500 via-blue-500 to-green-500 my-8"></div>
+    <div className="px-16 h-px bg-gradient-to-r from-gray-900 via-blue-500 to-gray-900 my-8"></div>
     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-16">
       {projects.map((project, index) => (
         <ProjectCard key={`${project.title}-${index}`} project={project} />
