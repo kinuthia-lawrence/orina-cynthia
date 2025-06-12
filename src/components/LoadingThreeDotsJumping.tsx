@@ -22,15 +22,15 @@ function LoadingThreeDotsJumping() {
             className="flex justify-center items-center gap-2"
         >
             <motion.div 
-                className="w-2 h-2 rounded-full bg-blue-500" 
-                variants={dotVariants} 
-            />
-            <motion.div 
                 className="w-2 h-2 rounded-full bg-green-500" 
                 variants={dotVariants} 
             />
             <motion.div 
-                className="w-2 h-2 rounded-full bg-blue-500" 
+                className="w-1 h-2 rounded-full bg-blue-500" 
+                variants={dotVariants} 
+            />
+            <motion.div 
+                className="w-2 h-2 rounded-full bg-green-500" 
                 variants={dotVariants} 
             />
         </motion.div>

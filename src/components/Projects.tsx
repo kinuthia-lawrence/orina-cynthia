@@ -22,7 +22,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           className="absolute inset-0 bg-cover bg-center bg-black transition-transform duration-500 ease-out group-hover:scale-110 group-hover:rotate-3"
           style={{
             backgroundImage: `url(${
-              project.coverImage || "/cybersecurity-default.jpg"
+              project.coverImage || "/threat.png"
             })`,
           }}
         ></div>
@@ -65,7 +65,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           {displayTags.map((tag) => (
             <span
               key={tag}
-              className="bg-gray-700 border border-gray-500 text-white text-xs px-3 py-1 rounded-full flex items-center"
+              className="bg-gray-700 border border-green-800 text-white text-xs px-3 py-1 rounded-full flex items-center"
             >
               {tagIcons[tag] ? (
                 <span className="mr-1.5">{tagIcons[tag]}</span>
@@ -74,15 +74,15 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
             </span>
           ))}
           {hasMoreTags && (
-            <span className="bg-gray-600 border border-gray-400 text-white text-xs px-3 py-1 rounded-full flex items-center">
+            <span className="bg-gray-600 border border-blue-900 text-white text-xs px-3 py-1 rounded-full flex items-center">
               +{extraTagsCount}
             </span>
           )}
         </div>
 
-        <div className="flex w-full justify-evenly gap-4 transition-all duration-300 opacity-100 md:absolute md:bottom-4 md:left-4 md:right-4 md:px-1 md:hidden group-hover:opacity-100 group-hover:md:flex">
+        <div className="flex w-full justify-evenly gap-4 transition-all duration-300 opacity-100 md:absolute md:bottom-6.75 md:left-4 md:right-4 md:pr-8 md:hidden group-hover:opacity-90 group-hover:md:flex">
           {project.codeLink && (
-            <div className="border border-blue-800 w-full rounded-full p-0.5 h-[42px]">
+            <div className="border border-green-800 w-full rounded-full p-0.5 h-[42px]">
               <a
                 href={project.codeLink}
                 target="_blank"
@@ -123,7 +123,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 } px-3 sm:px-4 rounded-full w-full border border-white whitespace-nowrap`}
               >
                 <Link className="w-4 h-4 mr-1 flex-shrink-0" />
-                <span>{project.liveLink === "#" ? "Soon" : "View Live"}</span>
+                <span>{project.liveLink === "#" ? "Coming Soon" : "View Live"}</span>
               </a>
             </div>
           )}
@@ -151,16 +151,16 @@ const Projects: React.FC = () => (
       have been modified to protect client confidentiality.
     </p>
     <div className="px-16 h-px bg-gradient-to-r from-gray-900 via-blue-500 to-gray-900 my-8"></div>
-    <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-16">
+    <div className="grid grid-cols-1  gap-4 md:grid-cols-2 md:gap-8 lg:gap-16">
       {projects.map((project, index) => (
         <ProjectCard key={`${project.title}-${index}`} project={project} />
       ))}
     </div>
     {/* Evolving section */}
     <div className="mt-8 text-center">
-      <p className="text-blue-400 font-mono text-sm sm:text-lg mb-6">
+      <p className="text-green-400 font-mono text-sm sm:text-lg mb-6">
         This section is evolving...
-        <span className="inline-block w-2 h-5 ml-1 bg-blue-500 animate-blink"></span>
+        <span className="inline-block w-1 h-5 ml-1 bg-green-500 animate-blink"></span>
       </p>
 
       <div className="my-4">
