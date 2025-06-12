@@ -107,8 +107,8 @@ const Hero: React.FC = () => (
         {/* Image container with subtle animation */}
         <div className="relative z-10 animate-float">
           <img
-            src="/Backgroundless.png"
-            alt="Cynthia B."
+            src="/image.png"
+            alt="Cynthia Orina."
             className="object-cover max-h-[380px] md:max-h-[600px] filter drop-shadow-2xl rounded-2xl"
           />
 

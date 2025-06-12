@@ -23,7 +23,7 @@ const About: React.FC = () => (
             <div className="absolute -inset-1.5 bg-gradient-to-r from-blue-500 to-green-500 rounded-full opacity-75 group-hover:opacity-100 blur-sm transition-all duration-300"></div>
             <div className="relative">
               <img
-                src="/Backgroundless.png"
+                src="/image.png"
                 alt="Cynthia Orina"
                 className="w-36 h-36 rounded-full border-4 border-white object-cover z-10 transition-transform duration-500 group-hover:scale-105"
               />
