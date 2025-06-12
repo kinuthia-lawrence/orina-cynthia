@@ -1,1 +1,94 @@
 @import "tailwindcss";
+
+/* Global Styles */
+html, body {
+  overscroll-behavior: none; /* Prevents the bounce effect in all directions */
+  overflow-x: hidden; 
+  max-width: 100vw; 
+  box-sizing: border-box; 
+  background-color: #000000; 
+}
+
+@keyframes float {
+   0%, 100% { transform: translateY(0px); }
+   50% { transform: translateY(-10px); }
+ }
+ .animate-float {
+   animation: float 4s ease-in-out infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 12px)); 
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(calc(-50% - 12px)); 
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.infinite-scroll-left {
+  animation: scroll-left 15s linear infinite;
+  width: fit-content;
+  display: flex;
+}
+
+.infinite-scroll-right {
+  animation: scroll-right 50s linear infinite;
+  width: fit-content;
+  display: flex;
+}
+
+/* Pause animation on hover */
+.infinite-scroll-left:hover,
+.infinite-scroll-right:hover {
+  animation-play-state: paused;
+}
+
+/* Style for social links */
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.social-link:hover {
+  transform: translateY(-0.25rem);
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
