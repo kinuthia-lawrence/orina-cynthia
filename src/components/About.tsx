@@ -135,7 +135,7 @@ const About: React.FC = () => (
           {/* Copyright */}
           <div className="mt-8 text-center md:text-right">
             <div className="flex items-center justify-center md:justify-end gap-2">
-              <span className="text-gray-400 text-sm">© 2025 Cynthia B. All rights reserved.</span>
+              <span className="text-gray-400 text-sm">© 2025 Cynthia Orina. All rights reserved.</span>
               <svg
                 width="20"
                 height="20"
