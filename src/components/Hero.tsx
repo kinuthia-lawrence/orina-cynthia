@@ -62,8 +62,7 @@ const Hero: React.FC = () => (
 
             {/* Inner button with white border */}
             <a
-              href="https://app.hackthebox.com/profile/Raptor20"
-              target="_blank"
+              href="#contact"
               className="relative block px-6 py-2.5 m-0.5 bg-gray-900/50 border border-white rounded-full transform hover:-translate-y-1 hover:bg-gray-800 transition-all duration-200 font-medium"
             >
               Hack The Box
@@ -76,21 +75,20 @@ const Hero: React.FC = () => (
           <div className="text-gray-400 text-sm">Connect with me</div>
           <div className="h-px bg-gray-700 flex-grow"></div>
           <a
-            href="#"
-            target="_blank"
+            href="#contact"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <SiHackthebox className="w-5 h-5" />
           </a>
           <a
-            href="https://twitter.com/dagal_laqueen"
+            href="http://x.com/de_dagal"
             target="_blank"
             className="text-gray-400 hover:text-white transition-colors"
           >
             <FaXTwitter className="w-5 h-5" />
           </a>
           <a
-            href="https://app.hackthebox.com/profile/Raptor20"
+            href="https://github.com/cynthiaorina"
             target="_blank"
             className="text-gray-400 hover:text-white transition-colors"
           >

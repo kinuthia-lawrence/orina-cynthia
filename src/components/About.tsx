@@ -59,7 +59,7 @@ const About: React.FC = () => (
         <div className="md:col-span-4 flex flex-col items-center md:items-end gap-8">
           {/* Social links with double borders */}
           <div className="grid grid-cols-3 gap-4">
-            <a href="#" className="social-link group">
+            <a href="#contact" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-green-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
@@ -83,7 +83,7 @@ const About: React.FC = () => (
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">Email</span>
             </a>
             
-            <a href="https://app.hackthebox.com/profile/Raptor20" target="_blank" className="social-link group">
+            <a href="#contact" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-green-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
@@ -95,7 +95,7 @@ const About: React.FC = () => (
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-green-400 transition-colors duration-300">HTB</span>
             </a>
             
-            <a href="https://www.github.com/cynthia-orina" target="_blank" className="social-link group">
+            <a href="https://github.com/cynthiaorina" target="_blank" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-blue-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
@@ -107,7 +107,7 @@ const About: React.FC = () => (
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-blue-400 transition-colors duration-300">Github</span>
             </a>
             
-            <a href="https://wa.me/message/+254703779459" target="_blank" className="social-link group">
+            <a href="https://wa.me/254703779459" target="_blank" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-green-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>
@@ -118,7 +118,7 @@ const About: React.FC = () => (
               </div>
               <span className="mt-1 text-xs text-center block text-gray-400 group-hover:text-green-400 transition-colors duration-300">WhatsApp</span>
             </a>
-            <a href="https://x.com/dagal_laqueen" target="_blank" className="social-link group">
+            <a href="http://x.com/de_dagal" target="_blank" className="social-link group">
               <div className="relative">
                 {/* Outer border */}
                 <div className="absolute inset-0 border-2 border-blue-500 rounded-lg opacity-60 group-hover:opacity-100 transition-all duration-300"></div>

@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://wa.me/message/+254703779459"
+                    href="https://wa.me/254703779459"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center p-4 border border-gray-800 rounded-lg hover:border-green-500/50 hover:bg-gray-800/50 transition-colors group"
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
                     </p>
                     <div className="flex flex-col space-y-4">
                       <a
-                        href="#"
+                        href="http://x.com/de_dagal"
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-blue-900/30 transition-colors group"
@@ -111,10 +111,9 @@ const Contact: React.FC = () => {
                         </span>
                       </a>
                       <a
-                        href="https://app.hackthebox.com/profile/Raptor20"
-                        target="_blank"
+                        href="#contact"
                         rel="noreferrer"
-                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-green-900/30 transition-colors group"
+                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-green-900/30 transition-colors group cursor-not-allowed"
                       >
                         <div className="w-8 h-8 flex items-center justify-center">
                           <SiHackthebox className="text-xl group-hover:text-green-400" />
@@ -124,7 +123,7 @@ const Contact: React.FC = () => {
                         </span>
                       </a>
                       <a
-                        href="https://www.github.com/cynthia-orina"
+                        href="https://github.com/cynthiaorina"
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-green-900/30 transition-colors group"
@@ -133,16 +132,15 @@ const Contact: React.FC = () => {
                           <FaGithub className="text-xl group-hover:text-green-400" />
                         </div>
                         <span className="text-sm text-gray-300 group-hover:text-green-400">
-                          github.com/cyntia-orina
+                          github.com/cynthiaorina
                         </span>
                       </a>
                       <a
-                        href="#"
-                        target="_blank"
+                        href="#contact"
                         rel="noreferrer"
-                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-blue-900/30 transition-colors group"
+                        className="flex items-center space-x-3 p-3 rounded-lg bg-gray-800 hover:bg-blue-900/30 transition-colors group cursor-not-allowed"
                       >
-                        <div className="w-8 h-8 flex items-center justify-center">
+                        <div className="w-8 h-8 flex items-center justify-center ">
                           <FaDiscord className="text-xl group-hover:text-blue-400" />
                         </div>
                         <span className="text-sm text-gray-300 group-hover:text-blue-400">
